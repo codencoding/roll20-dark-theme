@@ -11,3 +11,6 @@ Downloadable [here](https://codencoding.github.io/roll20-dark-theme/).
 
 ## Forums page
 ![forums preview](https://raw.githubusercontent.com/codencoding/roll20-dark-theme/main/images/forums.png)
+
+## Welcome page
+![welcome preview](https://raw.githubusercontent.com/codencoding/roll20-dark-theme/main/images/welcome.png)
