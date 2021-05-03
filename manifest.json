@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "Roll20 Dark Mode",
+  "version": "1.0",
+
+  "description": "Dark mode for various Roll20 pages/elements.",
+
+  "icons": {
+    "48": "icons/hinata_transparent.png",
+    "96": "icons/hinata_transparent.png"
+  },
+
+  "content_scripts": [
+    {
+        "matches": [
+            "*://*.roll20.net/forum/post/*",
+            "*://*.roll20.net/campaigns/*"
+        ],
+        "run_at": "document_start",
+        "css":["css/browsing-stylesheet.css"]
+    }
+  ]
+}

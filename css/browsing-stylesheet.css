@@ -1,0 +1,82 @@
+:root {
+    --bg-color: rgb(52, 52, 52);
+    --dark-bg-color: rgb(33, 33, 33);
+    --text-color: rgb(255, 197, 152);
+    --link-color: rgb(208, 73, 73);
+    --light-text-color: rgb(201, 201, 201);
+}
+
+body {
+    background-color: var(--dark-bg-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+p>span, p>b {
+    color: var(--text-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6, .calendar-display__date, .calendar-display__day {
+    color: var(--light-text-color);
+}
+
+div.full>div.menu>a, .gameinfo>a, .meta  {
+    color:var(--light-text-color) !important;
+}
+
+/* h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    content: "★ "
+} */
+
+.forum a {
+    color: var(--link-color);
+}
+
+.breadcrumb {
+    background: var(--bg-color);
+    border: 1px solid var(--link-color) !important;
+    border-radius: 5px !important;
+    padding: 3px !important;
+    padding-right: 5px !important;
+}
+
+.breadcrumb > li {
+    color: rgb(255, 224, 86);
+}
+
+.row, .menu-hider, .container, .btn-group, #mytags, .gray, .full {
+    background-color: var(--bg-color) !important;
+}
+
+.menu-hider {
+    border: none !important;
+}
+
+.topbar .btn-default {
+    background-color: var(--dark-bg-color);
+    color: white;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 5px white;
+}
+
+.infoboxes > li {
+    color: var(--text-color);
+}
+
+h1>span {
+    color:black;
+}
+
+span, em, .tagslabel {
+    color: var(--text-color);
+}
+
+.token-marker {
+    background-color: var(--bg-color) !important;
+}
+
+.bna>span.header, .bna>span.footer {
+    background-color: var(--dark-bg-color);
+}
