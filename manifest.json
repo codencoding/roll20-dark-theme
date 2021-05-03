@@ -7,10 +7,9 @@
   "description": "Dark mode for various Roll20 pages/elements.",
 
   "icons": {
-    "48": "icons/hinata_transparent.png",
-    "96": "icons/hinata_transparent.png"
+    "48": "icons/hinata_48.png",
+    "96": "icons/hinata_96.png"
   },
-
   "content_scripts": [
     {
         "matches": [
