@@ -6,7 +6,7 @@
     --light-text-color: rgb(201, 201, 201);
 }
 
-body {
+body, body.loggedin {
     background-color: var(--dark-bg-color);
 }
 
@@ -79,4 +79,20 @@ span, em, .tagslabel {
 
 .bna>span.header, .bna>span.footer {
     background-color: var(--dark-bg-color);
+}
+
+.topwell {
+    background: var(--bg-color);
+}
+
+form.login > label {
+    color: var(--text-color)
+}
+
+.card {
+    background-color: var(--dark-bg-color);
+}
+
+.profilemeta > *, .profilemeta > * > *, .profilemeta > * > * > *, a.userprofile {
+    color: var(--text-color) !important;
 }

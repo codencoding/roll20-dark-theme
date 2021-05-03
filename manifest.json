@@ -14,6 +14,9 @@
     {
         "matches": [
             "*://*.roll20.net/forum/post/*",
+            "*://*.roll20.net/welcome",
+            "*://*.roll20.net/",
+            "*://*.roll20.net/sessions/*",
             "*://*.roll20.net/campaigns/*"
         ],
         "run_at": "document_start",
